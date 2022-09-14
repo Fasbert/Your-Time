@@ -37,6 +37,7 @@ body{
 .clock{
     width: 350px;
     height: 350px;
+    margin: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +114,12 @@ body{
     border-radius: 6px 6px 0 0;
 }
 
-
+.spend-time{
+    color: var(--special-text-color);
+}
+.item-box{
+    width: 300px;
+}
 /* FOOTER */
 footer{
     display: flex;
